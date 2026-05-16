@@ -15,6 +15,7 @@ dotenv.config({
 });
 
 const port = process.env.PORT || 5002;
+const __dirname = path.resolve();
 
 //common middlewares
 app.use(express.json());
