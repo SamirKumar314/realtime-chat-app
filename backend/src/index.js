@@ -10,9 +10,7 @@ import path from "path";
 
 dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
-dotenv.config({
-  path: "./.env",
-});
+dotenv.config();
 
 const port = process.env.PORT || 5002;
 const __dirname = path.resolve();
